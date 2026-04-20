@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina para modal</title>
+      <link rel="stylesheet" href="Modal.css" />
+</head>
+<body>
+    <div class="Container">
+    <button id="abrir-modal">Abrir modal</button>
+    <dialog id="mi-dialogo">
+        <h2>Este es un dialogo modal</h2>
+
+         <form method="dialog" id="formulario-contacto">
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+    </div>
+
+    <div class="form-group">
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required />
+    </div>
+
+    <div class="form-group">
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit">Actualizar</button>
+      <button Id="Cerrar-modal">Cerrar</button>
+      
+    </div>
+  </form>
+    </dialog>
+    </div>
+    <script src="Modal.JS"></script>
+</body>
+</html>
